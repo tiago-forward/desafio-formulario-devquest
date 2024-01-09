@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .container-principal {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .container-principal .conteudo {
+        width: 300px;
+        margin: 20px 0;
+    }
+
+    .container-principal .conteudo .titulo {
+        font-size: 20px;
+    }
+
+    .container-principal .conteudo .descricao {
+        font-size: 15px;
+    }
+
+    .container-principal .formulario {
+        padding: 5px 20px 20px 20px;
+    }
+
+    .container-principal .formulario .inputs-campo {
+        width: 300px;
+    }
+
+    .span-obrigatorio {
+        font-size: 8px;
+    }
+}
