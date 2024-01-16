@@ -23,21 +23,19 @@
         </div>
         <form id="formulario" class="formulario">
 
-            <input id="nome" type="text" name="nome" placeholder="Nome completo *" class="inputs-campo"> 
-            <span class="span-obrigatorio span-none">campo obrigatório</span>
+            <input type="text" name="nome" placeholder="Nome completo *" class="inputs-campo"> 
+            <span class="span-obrigatorio">campo obrigatório</span>
 
-            <input id="email" type="email" name="email" placeholder="Email *" class="inputs-campo">
-            <span class="span-obrigatorio span-none">campo obrigatório</span>
-
-            <input id="telefone" type="text" name="telefone" placeholder="Telefone *" class="inputs-campo">
-            <span class="span-obrigatorio span-none">campo obrigatório</span>
-
-            <input id="mensagem" type="text" name="text" placeholder="Mensagem *" class="inputs-campo input-maior">
-            <span class="span-obrigatorio span-none">campo obrigatório</span>
+            <input type="email" name="email" placeholder="Email *" class="inputs-campo">
+            <span class="span-obrigatorio">campo obrigatório</span>
+            <input type="text" name="telefone" placeholder="Telefone *" class="inputs-campo">
+            <span class="span-obrigatorio">campo obrigatório</span>
+            <textarea name="text" placeholder="Mensagem *" class="inputs-campo input-maior"></textarea>
+            <span class="span-obrigatorio">campo obrigatório</span>
 
             <p class="observacao">*campos obrigatórios</p>
         
-            <button class="button-submit" type="submit">Enviar</button>
+            <button id="button-submit" class="button-submit" type="submit">Enviar</button>
         
         </form>
     </main>

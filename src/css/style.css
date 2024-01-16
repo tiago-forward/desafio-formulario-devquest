@@ -77,6 +77,7 @@ body {
 
 .container-principal .formulario .inputs-campo.input-maior {
     height: 120px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-principal .formulario .observacao {
@@ -104,11 +105,12 @@ body {
     background-color: #06160f;
 }
 
-.span-none {
-    display: none;
-}
-
 .span-obrigatorio {
     font-size: 12px;
     color: #F52E2E;
+    display: none;
+}
+
+.mostrar-span {
+    display: block;
 }
